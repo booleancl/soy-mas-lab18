@@ -1,5 +1,7 @@
-# En el contexto de la programación las funciones son una secuencia de sentencias de código con un nombre.
-# Se parecen en algo a las variables en el sentido que son un simple nombre. En el caso de las variables, estas apuntan a un valor, mientras que en el caso de las funciones, apuntan a una serie de sentencias que realizan una tarea específica.
+# En el contexto de la programación, las funciones son una secuencia de sentencias de código con un nombre.
+# Se parecen en algo a las variables en el sentido de que son un simple nombre. En el caso de las variables, estas apuntan a un valor, mientras que en el caso de las funciones, apuntan a una serie de sentencias que realizan una tarea específica.
+
+# Python trae varias funciones ya listas como las clásicas print(), int(), len(), etc
 
 # Podemos definir nuevas funciones para especificar un nombre junto con una secuencia de sentencias que se ejecutan cuando la función es "llamada", "ejecutar" o "invocada"
 

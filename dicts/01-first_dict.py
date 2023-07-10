@@ -1,9 +1,11 @@
-# Un diccionario es como una lista, pero más general, es decir, en un diccionario los índices pueden ser casi de cualquier tipo.
+# Un diccionario es como una lista, pero más general, es decir, en un diccionario los índices pueden ser casi de cualquier tipo. En los diccionarios a lo incides se les dice llaves  o keys.
+# Las llaves no pueden tener valores duplicados.
+
 # En los diccionarios los indices son llamados *llaves* o *keys* y tiene asociado sus respectivos valores.
 
 # Ejemplos
-
 empty_dict = {} # Crea un diccionario vacío
+
 english_to_spanish = {"one":"uno","two":"dos"} # Crea un diccionario con dos elementos
 
 # Los elementos se agregan en pares, es decir, llave-valor
