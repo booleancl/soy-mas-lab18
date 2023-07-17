@@ -28,11 +28,3 @@ def outro():
   print("Lalala lalala lalala la la")
   print("Lalala lalala lalala la la")
 
-for verse in verses:
-  intro(verse)
-  # Esto revisa si el verso NO es el último de los versos
-  if verse != verses[-1]:
-    chorus()
-  else: 
-    outro()
-  print("-------")

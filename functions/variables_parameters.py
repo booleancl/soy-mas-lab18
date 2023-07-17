@@ -4,8 +4,3 @@
 def say_hello(name, lastname):
   full_name = f"{name} {lastname}"
   print(f"¡Hola {full_name}!")
-
-say_hello("Gabriel", "Jiménez")
-
-# Esto es un error, porque full_name solo existe dentro del ámbito de la función say_hello
-print(full_name)

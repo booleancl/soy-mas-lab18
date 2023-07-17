@@ -10,6 +10,3 @@ for letter in word:
 
 
 print(f"Tu palabra tiene {len(word)} letras")
-
-for letter in letter_counter:
-  print(letter, letter_counter[letter])

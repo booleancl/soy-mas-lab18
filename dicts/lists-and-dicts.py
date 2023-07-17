@@ -27,20 +27,3 @@ students = [
 # Curso: Nombre del curso
 # Promedio de notas: X
 # Estado: Activo/Inactivo
-
-for student in students:
-  print("------------------------")
-  print("Estudiante:", student["name"], student["lastname"])
-  print("Curso:", student["course"])
-
-  sum = 0
-  grades = student["grades"]
-  for grade in grades:
-    sum += grade
-  
-  print("Promedio de notas:", sum/len(grades))
-
-  if student["active"]:
-    print("Estado: Activo")
-  else:
-    print("Estado: Inactivo")

@@ -12,9 +12,5 @@ print(test)
 
 # Si queremos que nuestra función retorne un valor, lo indicamos con la palabra reservada **return**
 
-def multiply_by_two(number):
-  return number * 2
-
-result = multiply_by_two(2)
-
-print(result)
+def sum(number1, number2):
+  return number1 + number2
